@@ -47,6 +47,10 @@ h1 {
     text-transform: uppercase;
 }
 
+.mobile-break {
+    display: none;
+}
+
 .info-cards {
     display: flex;
     gap: 40px;
@@ -102,5 +106,36 @@ span {
 
     h1 {
         font-size: 72px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero {
+        padding: 25px 25px;
+    }
+
+    h1 {
+        font-size: 37px;
+    }
+
+    .subtitle {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .mobile-break {
+        display: inline;
+    }
+
+    .card {
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 26px;
+    }
+
+    .footer-string {
+        font-size: 16px;
     }
 }
