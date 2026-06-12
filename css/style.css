@@ -82,3 +82,25 @@ span {
     color: rgba(255, 255, 255, 0.4);
     align-self: center;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 40px 80px;
+    }
+
+    .info-cards {
+        flex-direction: column;   
+        gap: 0px;
+        margin-top: 40%;
+    }
+
+    .card {
+        font-size: 48px;
+        margin-top: 0px;
+        margin-bottom: 5%;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+}
